@@ -1,0 +1,126 @@
+* {box-sizing: border-box;}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-image:url(C:/HTML/Imagens/PMFlix.png);
+    margin:0%;
+    background-image: cover;
+    background-image: no-repeat;
+    
+}
+
+body::before{
+   content: '';
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;right: 0;left: 0;bottom: 0;
+    width: 100%;
+    height: 100%;
+
+}
+#Senha{
+        border-radius:  5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 16px 20px 0px;
+        outline: none;
+        background-color:#333;
+        width: 100%;
+        height: 48px;
+        align-items: center;
+        border: 0px;
+        color: white;
+        
+    }
+#form{
+    background-color:rgba(0,0,0,0.8);
+    padding: 60px 68px 70px;
+    border: radius 4px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+}
+    
+
+#Login{
+    font-size:32px;
+    color: white;
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nome{
+    border-radius:  5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 16px 20px 0px;
+    outline: none;
+    background-color:#333;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    border: 0px;
+    color: white;
+    
+}
+
+
+#Enviar{
+    border-radius:  5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 16px;
+    margin: 24px 0px 12px;
+    outline: none;
+    background-color:#e50914;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align:center;
+    width: 100%;
+    color: azure;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-right: 55px;
+    outline: none;
+    color: rgb(122, 123, 120);
+
+}
+#conta{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-right: 55px;
+    outline: none;
+    color: rgb(171, 169, 166);
+}
+label{
+    font-size: 13px;
+    color:white;
+}
+
+
+#help{
+    font-size: 13px;
+    position: relative;
+    top: 20%; left: 26%;
+    color: white;
+    text-decoration: none;
+}
+header{
+    padding: 10px 50px;
+    position: relative;
+    z-index: 10;
+    
+}
+#fotologo img {
+    width: 86px;
+    height: 85px;
+}
+#help:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+#conta:hover{
+    text-decoration:underline;
+}
